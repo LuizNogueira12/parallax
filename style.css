@@ -67,10 +67,7 @@ section p {
     padding-bottom: 40px;
 }
 
-section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 550px;
-}
+
 section.normal{
     background-color: white;
     padding: 5vw;
