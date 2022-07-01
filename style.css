@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Russo+One&display=swap');
-
 :root{
     --fonteTitulo:'Russo One', sans-serif;
-    --fonteConteudo:'BIZ UDGothic', sans-serif;
+    --fonteConteudo:'M PLUS 1 Code', sans-serif;
 }
 
 body{
@@ -24,7 +27,7 @@ header{
 
 header > h1{
     color: white;
-    font-family: var(--fonteTitulo);
+    font-family: 'Russo One', sans-serif;;
     font-size: 7vw;
 }
 
@@ -96,10 +99,6 @@ section#imag02{
     background-size: cover;
     background-attachment: fixed;
 }
-
-
-
-
 
 footer{
     background-color: black;
