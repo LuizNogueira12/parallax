@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Russo+One&display=swap');
+
+:root{
+    --fonteTitulo:'Russo One', sans-serif;
+    --fonteConteudo:'BIZ UDGothic', sans-serif;
+}
+
+body{
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonteTitulo);
+    font-size: 7vw;
+}
+
+header > p{
+    color: white;
+    font-size: 1.5em
+    var(--fonteConteudo)
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: tomato;
+    font-weight: bolder;
+}
+
+section{
+    font-family: var(--fonteConteudo);
+    background-color: white;
+    padding: 10px;
+    line-height: 7vh;
+    
+}
+
+section p {
+    font-family: var(--fonteConteudo);
+    font-size: 3vw;
+    margin: 30px;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+}
+section.normal{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.402);
+    color: white;
+    padding: 10px;
+    padding-bottom: 2em;
+    box-shadow: 6px 6px 13px 0px black;
+    
+}
+
+section#imag01{
+    background-image: url('Imagem/Coração.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#imag02{
+    background-image: url('Imagem/adoração.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    padding: 15px;
+    font-family: var(--fonteTitulo);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer > p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
