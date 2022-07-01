@@ -15,26 +15,28 @@
     --fonteConteudo:'M PLUS 1 Code', sans-serif;
 }
 
-body{
+body, section{
     background-color: darkgray;
 }
+
 header{
     background-color: black;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
 header > h1{
     color: white;
-    font-family: 'Russo One', sans-serif;;
-    font-size: 7vw;
+    font-family: var(--fonteTitulo);
+    font-size: 80px;
 }
 
 header > p{
     color: white;
-    font-size: 1.5em
-    var(--fonteConteudo)
+    font-size: 1.5em;
+    font-family: var(--fonteConteudo);
+    padding-top: 20px;
 }
 
 a{
@@ -67,11 +69,11 @@ section p {
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.5);
-    width: 500px;
+    display: inline-block;
 }
 section.normal{
     background-color: white;
-    padding: 10px;
+    padding: 5vw;
     
 }
 
@@ -102,8 +104,8 @@ section#imag02{
 
 footer{
     background-color: black;
-    padding: 15px;
-    font-family: var(--fonteTitulo);
+    padding: 10px;
+    font-family: var(--fonteConteudo);
     text-align: center;
     font-size: 1.5em;
 }
